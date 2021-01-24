@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formatações de texto</title>
+	<style type="text/css">
+	
+		p{
+			font-size: 30px;
+			font-family: "georgia"
+		}
+		
+		.texto{
+			font-size: 16px; /* %, em, px */
+		}
+		
+		.negrito{
+			font-weight: bold /*100 até 900*/
+		}
+		
+		.estilo{
+			font-style: italic;
+			/*font-style: oblique;*/
+		}
+		
+		.texto-padrao{
+			font: bold 40px Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+		}
+		
+		.formatacao{
+			text-decoration: underline;
+			/*text-decoration: overline;
+			text-decoration: line-through;*/
+		}
+		
+	</style>
+</head>
+
+<body>
+	<p class="texto">Lorem ipsum <span class="formatacao">dolor</span> sit amet, consectetur adipiscing elit. In a venenatis mi. Vestibulum lectus elit, gravida eu facilisis in, interdum et leo.</p>
+	
+	<p class="negrito">Conteúdo 1</p>
+	<p class="estilo">Conteúdo 2</p>
+	<p class="texto-padrao">Conteúdo 3</p>
+	<p class="estilo">Conteúdo 4</p>
+</body>
+</html>

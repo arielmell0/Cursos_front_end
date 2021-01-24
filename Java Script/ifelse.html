@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">    
+    <head>
+        <meta charset="utf-8">
+        <title>Variaveis</title>
+        <script type="text/javascript">
+
+            // == igual
+            // == idêntico (mesmo tipo)
+            // != diferente
+            // !== diferentes (igual ou tipos)
+            // <  menor que
+            // >  maior que
+            // <= menor ou igual
+            // >= maior ou igual
+            //
+
+            var nota = prompt("digite aqui a nota:");
+            var media = 7
+
+            if(nota >= media) {
+                document.write('aprovado')
+            } else {
+                document.write('reprovado')
+            }
+
+            // && Se todas as condições forem verdadeiras
+            // || Se pelo menos uma condição for verdadeira
+            // |  Inverte o resultado (negativo se torna positivo e vice versa)
+
+            var notas = prompt("digite aqui sua nota:")
+            var faltas = prompt("digite aqui suas faltas:")
+
+            var media2 = 7;
+            var limitedefaltas = 15
+
+            if(notas >= media2 && faltas <= limitedefaltas){
+                document.write("Aprovado")
+            } else {
+                document.write("Reprovado")
+            }
+
+        </script>
+    </head>
+
+    <body>
+
+    </body>
+</html>
